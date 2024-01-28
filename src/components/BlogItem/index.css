@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.item-cont {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #d3d3d3;
+  border-radius: 12px;
+  padding: 6px;
+  margin: 5px;
+}
+
+.av {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-dec {
+  height: 180px;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.dp {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.para {
+  color: #8e8e8e;
+}
