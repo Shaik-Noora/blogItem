@@ -6,9 +6,9 @@ const BlogItem = props => {
   const {details} = props
   const {title, imageUrl, avatarUrl, author, topic, id} = details
   return (
-    <Link to={`/blogs/:${id}`}>
+    <Link to={`/blogs/${id}`}>
       <li className="item-cont">
-        <img src={imageUrl} alt={topic} className="image-dec" />
+        <img src={imageUrl} alt={title} className="image-dec" />
         <div>
           <p className="para">{topic}</p>
           <h1>{title}</h1>

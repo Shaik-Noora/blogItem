@@ -1,1 +1,15 @@
 /* Write your CSS code here */
+.dp {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.para {
+  height: 250px;
+  width: 450px;
+}
+
+.name-logo {
+  display: flex;
+  flex-direction: row;
+}
